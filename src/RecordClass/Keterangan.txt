@@ -1,0 +1,6 @@
+Fitur record ini masih bersifat eksperimental, bisa jadi kedepannya akan di hilangkan, tergantung response
+java comunity nya
+Secara otomatis, class ini akan meng exstends java.lang.record, jadi kita tidak bisa mengexstens class lain.
+Namun kita bisa mengimplementasi sebuah interface
+Record class bertujuan untuk mempermudah membuat class yang berisikan data, karena di dalam class ini sudah otomatis
+ada getter, equals, hashCode, dan toString method, dan juga constructor.

@@ -1,0 +1,8 @@
+Dengan keyword static, kita bisa membuat field, method/class yang bisa di akses langsung tanpa harus melalui objectnya.
+keyword static hanya bisa mengakses static lainnya kalau bisa di kelas yang sama
+
+static bisa di gunakan di field, method, block, innerclass
+
+Ketika inner class dibuat static, artinya inner class bisa di akses secara langsung tanpa harus membuat
+obejct outter nya telebih dahulu. Kekurangannya adalah, ketika inner class dibuat static, maka kita tidak bisa mengakses
+object si outer class nya

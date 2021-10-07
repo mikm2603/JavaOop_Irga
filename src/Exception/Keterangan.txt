@@ -1,0 +1,11 @@
+EXCEPTION = NAMA ERROR DI JAVA
+
+
+Segala error dalam java sudah di sediakan dalam Class Exception.
+Kita bisa membuat class exception sendiri atau menggunakan yang sudah di sediakan.
+Jika ingin membuat exception, maka kita harus membuat class yang extends class Throwable/turunannya
+
+Exception biasanya terjadi di method, maka dari itu method nya harus di tandai dengan keyword throws di ikuti nama kelas
+exception nya, bisa lebih dari 1
+Dalam kode program kita, cukup dengan throw(tanpa s) di ikuti object exceptionnya
+Untuk membuat method yang kira-kira bisa terjadi error, kita harus menyebutkan jenis errornya

@@ -1,0 +1,12 @@
+Pada konsep enkapsulasi ini, intinya kita membuat method untuk mendapatkan data field dengan get, dan untuk
+merubah data file dengan set, Atau biasa di sebut dengan getter dan setter.
+Jadi kita tidak bisa merubah field secara langsung, tapi dengan method set.
+Biasanya di konsep ini, programmer akan membuat semua field menjadi private, sehingga satu satunya cara
+untuk merubahnya adalah dengan membuat method setter, dan cara untuk mendapatkannya adalah dengan getter.
+Biasanya nama method getter di awali dengan get, namun sebenarnya tidak wajib, hanya untuk memudahkan
+mengetahui fungsi functionnya contoh :
+getNama();
+Namun khusus untuk variable boolean, biasanya menggunakan is, contoh :
+isActive();
+dan untuk setter biasanya diawali dengan set, contoh :
+setNama();

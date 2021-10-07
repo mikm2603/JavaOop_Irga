@@ -1,0 +1,2 @@
+Class yang di kasih keyword final di depannya, maka class itu sudah mutlak, tidak bisa di turunkan.
+Sedangkan method yang dikasih keyword final, maka method tersebut tidak bisa di override

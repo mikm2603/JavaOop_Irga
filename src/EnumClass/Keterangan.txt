@@ -1,0 +1,10 @@
+Saat membuat aplikasi, kadang kita bertemu dengan jenis data yang nilainya terbatas. Misal jenis kelamin itu hanya
+laki-laki dan perempuan, lalu misal jenis biji seperti monokotil dikotil.
+Nah untuk menangani kasus ini, kita bisa menggunakan enum class.
+Enum class sendiri yaitu class yang berisikan nilai yang terbatas dan sudah di tentukan.
+Saat membuat enum class, secara otomatis dia akan meng extends class java.lang.Enum.
+Jadi sama seperti record class, ini tidak bisa mengextends lagi, akan tetapi tetap bisa implements interface
+
+Kita juga bisa menambahkan members(field,method,constructor).
+Akan tetapi khusus constructor, kita tidak bisa membuat public. karena memang tujuan enum bukan untuk di instansiasi
+secara bebas (Tidak untuk dibuat, tapi untuk di pakai)

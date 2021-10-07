@@ -1,0 +1,20 @@
+Secara gampangnya, anonymous class adalah membuat classnya langsung ketika di deklarasi. contoh :
+Facebook facebook = new SocialMedia(){
+    void hello(){
+        method-method dari inner class di deklarasikan langsung seketika ketika class nya dibuat
+        System.out.println("Hellow");
+    }
+}
+
+Kekurangan :
+Kekurangannya, anonymous class tidak bisa di re use. jadi ketika kita membuat class baru maka harus membuat anonymous class
+baru. Contoh :
+Twitter twitter = new SocialMedia(){
+    void hello(){
+        method-method dari inner class di deklarasikan langsung seketika ketika class nya dibuat
+        System.out.println("Hellow");
+    }
+}
+
+tidak bisa cuma
+Twitter twitter = new SocialMedia(); //Error

@@ -1,0 +1,23 @@
+Public :
+1.Bisa di akses oleh class yang sama
+2.Bisa di akses oleh subclass pada package yang sama
+3.Bisa di akses olah class pada package yang sama
+4.Bisa di akses oleh subclass pada package yang berbeda
+5.Bisa di akses oleh class pada package yang berbeda
+
+Ketentuan Public :
+-Cuma boleh ada 1 public class di dalam 1 file java
+
+protected :
+1.Bisa di akses oleh class yang sama
+2.Bisa di akses oleh subclass pada package yang sama
+3.Bisa di akses olah class pada package yang sama
+4.Bisa di akses oleh subclass pada package yang berbeda
+
+No Modiver (default):
+1.Bisa di akses oleh class yang sama
+2.Bisa di akses oleh subclass pada package yang sama
+3.Bisa di akses olah class pada package yang sama
+
+Private :
+1.Bisa di akses oleh class yang sama

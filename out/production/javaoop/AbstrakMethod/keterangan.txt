@@ -1,0 +1,2 @@
+Abstrak method secara gampangnya yaitu untuk memaksa class child untuk mendeklarsikan ulang (override) method
+tersebut. karena apabila class child tidak mendeklarasikan ulang method abstrak, akan terjadi error.

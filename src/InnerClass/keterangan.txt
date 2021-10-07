@@ -1,0 +1,8 @@
+Dalam java, kadang kita perlu membuat class yang berhubungan satu sama lain. Contohnya yaitu class Company dan class employee.
+Company ini sebagai outer, dan employee sebagai inner.
+Jadi ketika kita ingin membuat class employee, maka kita harus terlebih dahulu membuat class Company.
+
+Keuntungan membuat inner class :
+kita bisa mengakses semua private member yang ada di outer class.
+Yaitu dengan nama class outernya lalau di ikuti titik lalu di ikuti this. Contoh :
+Company.this

@@ -1,0 +1,24 @@
+Interface disini bukan berati GUI(Graphical User Interface), akan tetapi yang di maksud itu seperti kerangka.
+Jadi ketika kita membuat interface, maka isinya adalah kerangka yang isinya hanya method kosong, tidak ada
+field/atribut.
+
+Hampir mirip seperti abstract, cuman dalam interface tidak ada field/atribut.
+Interface otomatis didepannya akan ada keyword : public abstract di methodnya, jadi sama seperti abstract,
+method pada interface tidak memiliki blok kode.
+
+
+INHERITENCE INTERFACE :
+Jika ada interface yang ingin menjadi anak dari interface yang lain, maka tinggal mengextends interface tersebut.
+dalam interface, interface dapat menjadi anak lebih dari 1 interface.
+
+Class juga dapat mengimplements lebih dari 1 interface
+
+
+Default Method :
+Seperti yang ada pada catatan di atas, kita tidak bisa memberikan method yang konkrit (method yang berisi)
+pada sebuah interface. Namun ini berubah pada java versi 8. Kita sudah bisa memberikan default method pada
+interface dengan cara menambah keyword 'default' pada depannya.
+Hal ini dikarenakan sangat sudah memaintenance interface yang sudah di implements oleh banyak class, karena
+seperti yang kita tau, ketika kita menambahkan method baru, maka semua class yang mengimplements tersebut wajib
+meng override nya. Namun jika kita memberikan 'default' dan memberikan default nilai, kita tidak diwajibkan
+mengoverridenya
