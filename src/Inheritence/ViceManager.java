@@ -8,7 +8,7 @@ public class ViceManager extends Manager{
         super(nama);
     }
 
-    //Method overriding, berbeda dengan overoading.
+    //Method overriding, berbeda dengan overloading.
     //Method overriding yaitu mendeklarasikan ulang method yang ada di class induk
     //Efeknya adalah ketika kita memanggil methodnya, maka yang tampil adalah method yang ada di class child
     //contoh ketika Inheritence.ViceManager.sayHello. Maka yang akan keluar adalah output method yang ada di bawah ini,

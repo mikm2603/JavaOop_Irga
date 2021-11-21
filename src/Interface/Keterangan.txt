@@ -22,3 +22,6 @@ Hal ini dikarenakan sangat sudah memaintenance interface yang sudah di implement
 seperti yang kita tau, ketika kita menambahkan method baru, maka semua class yang mengimplements tersebut wajib
 meng override nya. Namun jika kita memberikan 'default' dan memberikan default nilai, kita tidak diwajibkan
 mengoverridenya
+
+
+REVISI, BOLEH ADA FIELD CUMAN HARUS DI ISI NILAINYA.

@@ -13,7 +13,7 @@ public class CompanyApp {
         dengan tanda titik. Contoh : Company.Employee.
         Namun ketika ingin mendeklarasikan new Employee(), kita tidak bisa menggunakan class companynya, contoh : Company.new Employee()
         hal tersebut akan error, kita harus menggunakan object dari class Company yaitu company. Maka dari itu kita harus sudah
-        membuat object company terlebih dahulu sebelum membuat class innter.
+        membuat object company terlebih dahulu sebelum membuat class inner.
          */
         Company.Employee employee = company.new Employee();
         employee.setName("Eko");
